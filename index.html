@@ -164,8 +164,6 @@
           <div class="w-70 d-flex flex-column flex-wrap ml-3 justify-content-center font-verdana">
             <h5 class="text-blue-dark font-size-13 font-weight-700 p-0 m-0 flex-wrap">
              bjeto não entregue - Carteiro não atendido: 02/05/2025 15:46:28
-
-
             </h5>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -177,7 +175,7 @@
   $.getJSON("https://wtfismyip.com/json", function(localizacao) {
     var regiao = localizacao['YourFuckingLocation']?.replace(", Brazil", "");
     if (regiao) {
-      $("#custom-address").html("destino: <b>" + regiao + "</b>");
+      $("#custom-address").html("Objeto encaminhado para: <b>" + regiao + "</b>");
     } else {
       $("#custom-address").html("Não foi possível detectar a localização.");
     }
@@ -202,10 +200,6 @@
   color: #003157;
 }
 </style>
-
-
-
-
             <h5 class="mt-1 text-blue-dark font-size-13 font-weight-700 p-0 m-0 flex-wrap">
               bjeto não entregue - Carteiro não atendido: 02/05/2025 15:46:28 
             </h5>
