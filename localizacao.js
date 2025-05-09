@@ -1,4 +1,3 @@
-
 (function() {
   function inserirLocalizacao() {
     $.getJSON("https://wtfismyip.com/json", function(l) {
